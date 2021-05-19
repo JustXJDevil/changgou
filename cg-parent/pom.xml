@@ -9,6 +9,7 @@
         <module>cg-service-api</module>
         <module>cg-web</module>
         <module>cg-common</module>
+        <module>cg-common-db</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
