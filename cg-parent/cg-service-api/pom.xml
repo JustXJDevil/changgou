@@ -10,6 +10,22 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>cg-service-api</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>cg-service-goods-api</module>
+    </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.clark</groupId>
+            <artifactId>cg-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 
 </project>
