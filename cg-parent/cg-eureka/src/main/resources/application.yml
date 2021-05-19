@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eureka
+
+server:
+  port: 7001
+
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    register-with-eureka: false # register self to eureka
+    fetch-registry: false # get info from eureka
+    service-url:
+      defaultZooe: http://${eureka.instance.hostname}:${server.port}/eureka/
